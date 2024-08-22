@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/d5210d1a-d570-4883-8712-9eac4b36fcdc/resourceGroups/whatsappapigrop/providers/Microsoft.Web/sites/whatsappgpapi",
+    "appService.deploySubpath": "src"
+}

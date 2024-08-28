@@ -48,7 +48,9 @@ const ReceivedMessage = async (req, res) => {
             whatsappService.SendMessageWhatsapp("hola " + text,number);
             //line above modified to see sender name or number on message
         }
-        res.send(200);
+        //res.sendStatus(200); will try to save as json fornmat 26/8
+        res.json({ message: "Message processed", content: messageContent });
+        //SendStatus change to test multipel request 
         myConsole.log("Everything will be fine");
     }catch(e){
         myConsole.log(e);
